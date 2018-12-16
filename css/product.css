@@ -1,0 +1,51 @@
+#middle{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#middle h1{
+	padding-top: 75px;
+	text-align: center;
+	padding-bottom: 58px;
+}
+.product{
+	margin-left: 105px;
+	overflow: hidden;
+}
+.product_details{
+	float: left;
+	padding-bottom: 115px;
+	padding-right: 45px;
+}
+.product_details p{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.product_details{
+	display: block;
+	font-size: 18px;
+	color: #6e6969;
+	text-align: center;
+}
+.special{
+	padding-bottom: 110px;
+}
+.page{
+	padding-bottom: 110px;
+	overflow: hidden;
+	width: 320px;
+	margin: 115px auto 10px ;
+}
+.page li{
+	float: left;
+}
+.page a{
+	padding-right: 40px;
+	font-size: 24px;
+}
+.page a:hover{
+	color: #004290;	
+}

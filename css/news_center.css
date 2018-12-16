@@ -1,0 +1,30 @@
+#middle{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#middle h1{
+	padding: 97px 416px 45px 416px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#middle p{
+	padding-bottom: 30px;
+	text-indent: 2em;
+	font-size: 16px;
+	padding-left: 98px;
+}
+#middle h2{
+	line-height: 54px;
+	font-size: 24px;
+	padding-left: 100px;
+}
+#middle a:hover{
+	color: #004290;
+}
+.middle_style1{
+	padding-top: 42px;
+}
+.middle_style2{
+	padding-bottom: 105px;
+}

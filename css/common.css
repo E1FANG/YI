@@ -1,0 +1,223 @@
+/**通用样式**/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	width: 100%;
+	min-width: 1200px;
+	font: 16px/1.2 "微软雅黑";
+}
+img{
+	border:none;
+	vertical-align:top;
+}
+textarea{
+	resize: none;
+	overflow: auto;
+}
+li {list-style-type:none;}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #000000;
+}
+/**头部样式**/
+#header{
+	width:100%;
+	/*overflow: hidden;*/
+}
+.head{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-top: 16px;
+	margin-left: 39px;
+	margin-bottom: 14px;
+}
+.logo img{
+	width: 100%;
+}
+.logo a{
+	display: inline-block;
+	width: 100%;
+}
+.search{
+	float: right;
+	margin-top: 48px;
+	overflow: hidden;
+}
+.search form{
+	width: 370px;
+}
+.search_input input{
+	border: 1px solid #004290;
+	width: 234px;
+	height: 47px;
+	background: url(../img/reserach.png) no-repeat 22px 12px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	float: left;
+	outline: none;
+	padding-left: 50px;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+.btn button{
+	float: left;
+	width: 134px;
+	height: 47px;
+	border: 1px solid #004290;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius:10px ;
+	text-align: center;
+	font-size: 20px;
+	color: #004290;
+	/*border-left: hidden;*/
+	outline: none;
+	background: none;
+}
+.nav{
+	width: 100%;
+	background-color: #004290;
+	height: 50px;
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+.nav_list{
+	width: 1200px;
+	margin: 0 auto;
+	height: 50px;
+}
+.nav_list ul{
+	height: 50px;
+}
+.nav_list li{
+	float: left;
+	margin-left: 115px;
+	height:47px;
+	width: 100px;
+	text-align: center;
+}
+.nav_list a{
+		text-align: center;
+		font-size: 18px;
+		color: #dde2ec;
+		line-height: 50px;
+		display: inline-block;
+		width: 100px;		
+}
+.nav_list_special{
+	border-bottom: 3px solid #ffffff;
+}
+.nav_list ul>li:hover{
+	border-bottom: 3px solid #ffffff;
+}
+.banner{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.banner_photo{
+	position: relative;
+	padding-bottom: 25.9896%;
+	width: 100%;
+}
+.banner_photo img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner_list ol{
+	position: absolute;
+	overflow: hidden;
+	/*width: 100%;*/
+	width: 132px;
+	bottom: 8px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*left: 45.9%;*/
+}
+/*.banner_list ol{
+	top: 0;
+	bottom: 8px;
+	left: 45.9%;
+	
+}*/
+.banner_list .active{
+	background-image: url(../img/lunbo_blue.png);
+}
+.banner_list li{
+	background-image: url(../img/lunbo_white.png);
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin:0 7px;
+}
+.banner ol>li:hover{
+	background-image: url(../img/lunbo_blue.png);
+}
+/**底部样式**/
+#footer{
+	width: 100%;
+	background-color: #004290;
+}
+.footer_top{
+	height: 225px;
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 28px;
+
+}
+.friendlink{
+	padding-top: 50px;
+	padding-right: 215px;
+	overflow: hidden;
+	float: left;
+}
+.friendlink ul{
+	float: left;
+	padding-left: 105px;
+	
+}
+.friendlink a{
+	color: #FFFFFF;
+}
+.friendlink p{
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+.friendlink span{
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 30px;
+	text-align: center;	
+}
+.joinus{
+	padding-top: 54px;
+}
+.joinus span{
+	display: block;
+	padding-top: 15px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-indent: 0.5em;
+}
+.copyright{
+	width: 100%;
+	height: 70px;
+}
+.copyright p{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 70px;
+	border-top: 1px solid #FFFFFF;
+}

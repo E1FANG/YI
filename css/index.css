@@ -1,0 +1,137 @@
+/**新闻展示**/
+#middle{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.title{
+	padding-top: 82px;
+	overflow: hidden;
+}
+.title h1{
+	float: left;	
+	font-size: 36px;
+	font-weight: bold;
+}
+.title span{
+	float: left;
+	font-size: 26px;
+	padding-left: 10px;
+	padding-top: 14px;
+}
+.news{
+	float: left;
+	border-top: 1px solid #64686d;
+	margin-top: 14px;
+}
+.news_left{
+	width: 690px;
+	float: left;
+}
+.news_left h2{
+	font-size: 22px;
+	padding-top: 32px;
+	font-size: 23px;
+}
+.news_left p{
+	font-size: 16px;
+	padding-top: 36px;
+	text-indent: 2em;
+	color: #282828;
+	line-height: 26px;
+}
+.news_left ol{
+	padding-top: 32px;
+}
+.news_left ul>li>a{
+	float: right;
+	padding-top: 12px;
+	font-size: 16px;
+	color: #004290;
+}
+.news_left ol>li>span{
+	float: right;
+	font-size: 16px;
+}
+.news_left ol>li>a{
+	font-size: 16px;
+	line-height: 26px;
+	color: #282828;
+}
+.news_left ol>li>a:hover{
+	color: #004290;
+}
+.news_photo{
+	width: 475px;
+	float: left;
+	margin-left: 35px;
+}
+.news_photo img{
+	padding-top: 68px;
+	width: 100%;
+}
+
+/**产品展示**/
+.product{
+	padding-bottom: 14px;
+	
+}
+.product h2{
+	float: left;
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 66px;
+}
+.product span{
+	float: left;
+	font-size: 26px;
+	padding-left: 10px;
+	padding-top: 80px;
+}
+.exhibit{
+	border-top: 1px solid #64686D;
+	margin-top: 14px;
+	float: left;
+	margin-bottom: 102px;
+	overflow: hidden;
+}
+.exhibit_left{
+	width: 545px;
+	float: left;
+	padding-top: 118px;
+	padding-right: 87px;
+}
+.exhibit_left li{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.exhibit_left li>p{
+	font-size: 18px;
+	color: #6e6969;
+}
+.exhibit_right{
+	width: 568px;
+	float: left;
+	padding-top: 108px;
+	overflow: hidden;
+}
+.exhibit_right li{
+	float: left;
+	
+}
+.exhibit_right li:nth-child(2n-1){
+	padding-right: 69px;
+}
+.exhibit_right p{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+.exhibit_right span{
+	display: block;
+	font-size: 18px;
+	color: #6e6969;
+	text-align: center;
+}

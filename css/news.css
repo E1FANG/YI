@@ -1,0 +1,97 @@
+#middle{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sidebar{
+	width: 200px;	
+	float: left;
+	border-left: 2px solid #5C5555;
+	border-top: 2px solid #5C5555;
+	border-bottom: 2px solid #5C5555;
+	margin-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 102px;
+	min-height: 1200px;
+}
+.sidebar li{
+	border-bottom: 1px solid #5C5555;
+}
+.sidebar li>p{
+	padding: 42px 44px 33px 50px;
+	font-size: 24px;
+}
+.sidebar li>p:hover{
+	font-weight: bold;
+	border-left: 5px solid #004290;
+}
+.company_details{
+	margin-top: 38px;
+}
+.company_details li{
+	border: 0;
+}
+.company_details span{
+	display: block;
+	text-align: center;
+}
+.middle_left1_big{
+	padding-bottom: 20px;
+	font-size: 24px;
+}
+.middle_left1_small{
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+.middle_left1_special{
+	padding-bottom: 23px;
+	font-size: 18px;
+}
+.content{
+	float: left;
+	width: 798px;
+	border: 2px solid #5C5555;
+	margin-top: 80px;
+	min-height: 1200px ;
+}
+.content h1{
+	padding-top: 42px;
+	padding-left: 23px;
+	padding-bottom: 32px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.content_details h2{
+	padding-bottom: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.content_details p{
+	padding-bottom: 8px;
+	font-size: 16px;
+	text-indent: 2em;
+	padding-left: 16px;
+	
+}
+.content_details a{	
+	display: block;
+	margin-bottom: 49px;
+	margin-left: 686px;
+	color: #004290;
+}
+.page{
+	overflow: hidden;
+	width: 320px;
+	margin: 115px auto 10px ;
+}
+.page li{
+	float: left;
+}
+.page a{
+	padding-right: 40px;
+	font-size: 24px;
+}
+.page a:hover{
+	color: #004290;	
+}

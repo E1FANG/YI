@@ -1,0 +1,51 @@
+#middle{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#middle img{
+	padding: 42px 22px;
+	border: 1px solid #000000;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+.product_details{
+	float: right;
+	margin-top: 80px;
+	margin-right: 100px;
+}
+.product_details h1{
+	font-size: 24px;
+	padding-bottom: 80px;
+}
+.product_details h2{
+	font-size: 22px;
+	padding-bottom: 50px;
+}
+.product_details p{
+	font-size: 24px;
+	line-height: 30px;
+	padding-left: 70px;
+}
+.content{
+	margin-top: 50px;
+	margin-left: 28px;
+}
+.content p{
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 25px;
+	padding-bottom: 25px;
+}
+.content span>a:hover{
+	color: #004290;
+}
+.content span:nth-of-type(1){
+	padding-top: 22px;
+	display: block;
+}
+.content span:nth-of-type(2){
+	padding-top: 30px;
+	display: block;
+	padding-bottom: 100px;
+}
